@@ -1,0 +1,209 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, Sans-Serif;
+}
+body{
+  background-color: #06323F;
+  align-items: center;
+  margin: auto;
+}
+
+.container{
+  margin-top: 5vw;
+  width: 100%;
+  height: 45vw;
+  display: flex;
+}
+
+
+/* Curly 2 */
+
+.curly1{
+  position: relative;
+  left: 12vw;
+  width: 18vw;
+  height: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.curly1-shape{
+  position: relative;
+  right: -5.4vw;
+  width: 10.6vw;
+  height: 40vw;
+  background-color: #FFDE00;
+  border-top-left-radius: 5.5vw;
+  border-bottom-left-radius: 5.5vw;
+}
+.curly1-cutout1{
+  position: relative;
+  left: 1.2vw;
+  width: 4.3vw;
+  height: 26.5vw;
+  background-color: #06323F;
+  border-top-left-radius: 3vw;
+  border-bottom-left-radius: 3vw;
+}
+.curly1-cutout2{
+  position: relative;
+  left: -11.9vw;
+  width: 2.5vw;
+  height: 10vw;
+  background-color: #FFDE00;
+  border-top-left-radius: 1vw;
+  border-bottom-left-radius: 1vw;
+}
+
+
+/* knife 1 */
+
+.knife1{
+  position: relative;
+  left: 6.5vw;
+  height: 40vw;
+  width: 45vw;
+}
+
+.knife1-coutout1{
+  position: relative;
+  top: 0px;
+  left: 25vw;
+  background-color: #FFDE00;
+  width: 7vw;
+  height: 35vw;
+  transform: rotate(45deg);
+}
+
+.knife1-triangle{
+  position: relative;
+  left: 1vw;
+  top: -2.455vw;
+  width: 0px;
+  height: 0px;
+  border-left: 5.02vw solid transport;
+  border-right: 5.02vw solid transparent;
+  border-top: 5.02vw solid #FFDE00;
+  transform: rotate(45deg);
+}
+
+.knife1-coutout3{
+  position: relative;
+  left: -5.5vw;
+  bottom: -26vw;
+  background-color: #FFDE00;
+  width: 18vw;
+  height: 4vw;
+  transform: rotate(0deg);
+}
+
+.knife1-cutout4{
+  position: relative;
+  left: 1.5vw;
+  top: 20vw;
+  background-color: #FFDE00;
+  width: 4vw;
+  height: 17vw;
+  border-radius: 1vw;
+  transform: rotate(0deg);
+}
+
+/* Combiner */
+
+.combiner{
+  position: relative;
+  top: 14.7vw;
+  left: 1vw;
+  transform: rotate(45deg);
+  width: 15vw;
+  height: 10vw;
+  background-color: #06323F;
+}
+
+/* Knife 2 */
+
+.knife2{
+  height: 40vw;
+  width: 45vw;
+  position: relative;
+  right: 27.3vw;
+}
+.knife2-coutout1{
+  position: relative;
+  top: 0px;
+  right: -18vw;
+  background-color: #FFDE00;
+  width: 7vw;
+  height: 35vw;
+  transform: rotate(-45deg);
+}
+
+.knife2-triangle{
+  position: relative;
+  left: 1vw;
+  top: -2.455vw;
+  width: 0px;
+  height: 0px;
+  border-left: 5.02vw solid transport;
+  border-right: 5.02vw solid transparent;
+  border-top: 5.02vw solid #FFDE00;
+  transform: rotate(45deg);
+}
+.knife2-coutout3{
+  position: relative;
+  left: -5.5vw;
+  bottom: -26vw;
+  background-color: #FFDE00;
+  width: 18vw;
+  height: 4vw;
+  transform: rotate(0deg);
+}
+.knife2-cutout4{
+  position: relative;
+  left: 1.5vw;
+  top: 20vw;
+  background-color: #FFDE00;
+  width: 4vw;
+  height: 17vw;
+  border-radius: 1vw;
+  transform: rotate(0deg);
+}
+
+/* Curly1 */
+
+.curly2{
+  position: relative;
+  right: 12vw;
+  width: 18vw;
+  height: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.curly2-shape{
+  position: relative;
+  left: 3vw;
+  width: 10.6vw;
+  height: 40vw;
+  background-color: #FFDE00;
+  border-top-right-radius: 5.5vw;
+  border-bottom-right-radius: 5.5vw;
+}
+.curly2-cutout1{
+  position: relative;
+  right: 7.7vw;
+  width: 4.3vw;
+  height: 26.5vw;
+  background-color: #06323F;
+  border-top-right-radius: 3vw;
+  border-bottom-right-radius: 3vw;
+}
+.curly2-cutout2{
+  position: relative;
+  right: 1.4vw;
+  width: 2.5vw;
+  height: 10vw;
+  background-color: #FFDE00;
+  border-top-right-radius: 1vw;
+  border-bottom-right-radius: 1vw;
+}
